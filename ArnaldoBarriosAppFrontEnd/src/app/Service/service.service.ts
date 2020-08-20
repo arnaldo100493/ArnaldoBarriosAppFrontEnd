@@ -10,7 +10,7 @@ export class ServiceService {
   persona: Persona;
   constructor(private http: HttpClient) { }
 
-  url = 'http://localhost:8082/EjemploJavaSpringBackEnd/personas';
+  url = 'http://localhost:8082/ArnaldoBarriosAppBackEnd/personas';
 
 
   getPersonas() {

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "EjemploAngularAppFrontEnd": {
+    "ArnaldoBarriosAppFrontEnd": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/EjemploAngularAppFrontEnd",
+            "outputPath": "dist/ArnaldoBarriosAppFrontEnd",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "EjemploAngularAppFrontEnd:build"
+            "browserTarget": "ArnaldoBarriosAppFrontEnd:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "EjemploAngularAppFrontEnd:build:production"
+              "browserTarget": "ArnaldoBarriosAppFrontEnd:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "EjemploAngularAppFrontEnd:build"
+            "browserTarget": "ArnaldoBarriosAppFrontEnd:build"
           }
         },
         "test": {
@@ -112,19 +112,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "EjemploAngularAppFrontEnd:serve"
+            "devServerTarget": "ArnaldoBarriosAppFrontEnd:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "EjemploAngularAppFrontEnd:serve:production"
+              "devServerTarget": "ArnaldoBarriosAppFrontEnd:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "EjemploAngularAppFrontEnd",
-  "cli": {
-    "analytics": false
-  }
+  "defaultProject": "ArnaldoBarriosAppFrontEnd"
 }
