@@ -1,5 +1,12 @@
 export class Persona {
     idPersona: number;
-    nombre: String;
-    apellido: String;
+    identificacion: String;
+    tipoIdentificacion: String;
+    nombres: String;
+    apellidos: String;
+    edad: String;
+    telefono: String;
+    correoElectronico:String;
+    ciudad:String;
+    ocupacion:String;
 }
