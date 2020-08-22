@@ -6,7 +6,7 @@ export class Persona {
     apellidos: String;
     edad: String;
     telefono: String;
-    correoElectronico:String;
-    ciudad:String;
-    ocupacion:String;
+    correoElectronico: String;
+    ciudad: String;
+    ocupacion: String;
 }
